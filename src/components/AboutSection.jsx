@@ -14,8 +14,8 @@ function AboutSection() {
               <li>Programo desde que tengo 7 años</li>
               <li>Busco aprender nuevas tecnologias</li>
               <li>Apasionada por el descubrimiento</li>
-              <li>Velo por la estructuracion y optimizacion</li>
-              <li>Aprendi a ser disciplinada a traves<br />de la musica</li>
+              <li>Velo por la estructuración y optimización</li>
+              <li>Aprendí a ser disciplinada a través<br />de la música</li>
             </ul>
           </div>
           <div className="about-image-container">

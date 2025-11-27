@@ -25,10 +25,10 @@ function ProjectsSection() {
                 <div className="project-dropdown">
                   <p className="project-role">
                     <span className="project-role-label">Mi rol en el proyecto:</span>
-                    <span className="project-role-value"> Back-end</span>
+                    <span className="project-role-value"> BackEnd</span>
                   </p>
                   <ul className="project-tasks">
-                    <li>Almacenamiento de datos con microsoft Access</li>
+                    <li>Almacenamiento de datos con Microsoft Access</li>
                     <li>Diseño de flujo de datos</li>
                   </ul>
                 </div>
@@ -46,7 +46,7 @@ function ProjectsSection() {
                 <div className="project-dropdown">
                   <p className="project-role">
                     <span className="project-role-label">Mi rol en el proyecto:</span>
-                    <span className="project-role-value"> Back-end</span>
+                    <span className="project-role-value"> BackEnd</span>
                   </p>
                   <ul className="project-tasks">
                     <li>Infraestructura de datos</li>
@@ -68,13 +68,13 @@ function ProjectsSection() {
                 <div className="project-dropdown">
                   <p className="project-role">
                     <span className="project-role-label">Mi rol en el proyecto:</span>
-                    <span className="project-role-value"> Back-end</span>
+                    <span className="project-role-value"> BackEnd</span>
                   </p>
                   <ul className="project-tasks">
                     <li>Infraestructura de datos</li>
                     <li>Almacenamiento en servidores</li>
                     <li>Diseño de API</li>
-                    <li>Conexion con API´s externas</li>
+                    <li>Conexión con API´s externas</li>
                   </ul>
                 </div>
               )}
@@ -85,7 +85,7 @@ function ProjectsSection() {
               <h3 className="project-detail-title">Style Finder</h3>
               <div className="project-detail-line"></div>
               <p className="project-detail-description">
-                Asistente de moda virtual que facilita el vestirse en el dia a dia, asociando colores segun el circulo cromatico y el clima actual
+                Asistente de moda virtual que facilita el vestirse en el dia a dia, asociando colores según el circulo cromático y el clima actual
               </p>
               <div className="project-detail-image-container">
                 <img src="/style.png" alt="Style Finder" className="project-detail-image" />
@@ -97,7 +97,7 @@ function ProjectsSection() {
               <h3 className="project-detail-title">Malar.IA</h3>
               <div className="project-detail-line"></div>
               <p className="project-detail-description">
-                Aplicacion destinada a los medicos de frontera para la rapida deteccion de cuadros de malaria por una foto de globulos rojos
+                Aplicación destinada a los médicos de frontera para la rápida detección de cuadros de malaria por una foto de glóbulos rojos
               </p>
               <div className="project-detail-image-container">
                 <img src="/sangre.png" alt="Malar.IA" className="project-detail-image" />
@@ -109,7 +109,7 @@ function ProjectsSection() {
               <h3 className="project-detail-title">DiHy Care</h3>
               <div className="project-detail-line"></div>
               <p className="project-detail-description">
-                Facilita el registro personal de datos diarios para las personas con diabetes e hipertension.
+                Facilita el registro personal de datos diarios para las personas con diabetes e hipertensión.
               </p>
               <div className="project-detail-image-container">
                 <img src="/dihy.png" alt="DiHy Care" className="project-detail-image" />
