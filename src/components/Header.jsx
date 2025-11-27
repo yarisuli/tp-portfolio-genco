@@ -14,7 +14,6 @@ function Header() {
         <button className="nav-button" onClick={() => scrollToSection('acerca-de-mi')}>Acerca de mi</button>
         <button className="nav-button" onClick={() => scrollToSection('habilidades')}>Habilidades</button>
         <button className="nav-button" onClick={() => scrollToSection('proyectos')}>Proyectos</button>
-        <button className="nav-button" onClick={() => scrollToSection('hoja-de-vida')}>Hoja de vida</button>
         <button className="nav-button contact-button" onClick={() => scrollToSection('contacto')}>Contacto</button>
       </nav>
     </header>
