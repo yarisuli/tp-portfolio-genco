@@ -7,7 +7,9 @@ function AboutSection() {
         <h2 className="about-title">Acerca de mi</h2>
         <div className="about-content">
           <div className="about-list">
-            <h3 className="about-subtitle">Hola Mundo!</h3>
+            <h3 className="about-subtitle">
+              <span className="typing-text">Hola Mundo!</span>
+            </h3>
             <ul className="about-items">
               <li>Programo desde que tengo 7 años</li>
               <li>Busco aprender nuevas tecnologias</li>

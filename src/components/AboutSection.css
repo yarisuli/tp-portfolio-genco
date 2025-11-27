@@ -66,6 +66,30 @@
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
+  display: inline-block;
+}
+
+.typing-text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing-loop 6s steps(11, end) infinite;
+}
+
+@keyframes typing-loop {
+  0% {
+    width: 0;
+  }
+  41.67% {
+    width: 11ch;
+  }
+  91.67% {
+    width: 11ch;
+  }
+  100% {
+    width: 0;
+  }
 }
 
 .about-items {
