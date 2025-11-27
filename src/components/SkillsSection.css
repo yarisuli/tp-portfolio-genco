@@ -3,7 +3,7 @@
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
-  padding: 4rem 2rem;
+  padding: 1rem 2rem 2rem 2rem;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -11,7 +11,7 @@
 }
 
 .skills-container {
-  max-width: 1200px;
+  max-width: 1800px;
   width: 100%;
   margin: 0 auto;
 }
@@ -19,9 +19,54 @@
 .skills-title {
   font-family: 'Space Mono', monospace;
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.skills-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-item-title {
+  font-family: 'Space Mono', monospace;
+  color: white;
+  font-size: 1.375rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+.skill-card {
+  background-color: #707070;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 450px;
+  height: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.skill-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0.5rem;
 }
 
