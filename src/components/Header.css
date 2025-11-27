@@ -1,0 +1,46 @@
+.header {
+  width: 100%;
+  max-width: 100%;
+  padding: 1rem 2rem;
+  background-color: #364053;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-sizing: border-box;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.nav-button {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 1.125rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-button:hover {
+  color: #ffffff;
+}
+
+.contact-button {
+  background-color: #3B82F6;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #2563EB;
+}
+
