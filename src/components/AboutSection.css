@@ -22,7 +22,7 @@
   font-size: 3rem;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .about-content {
@@ -50,6 +50,7 @@
   align-items: center;
   justify-content: flex-end;
   margin-right: -4rem;
+  padding-top: 0;
 }
 
 .about-image {
