@@ -9,9 +9,13 @@ function HeroSection() {
           <p className="hero-subtitle">BackEnd Developer<span className="cursor-blink">_</span></p>
         </div>
         <div className="hero-images">
-          <img src="/github.png" alt="GitHub" className="hero-image" />
+          <a href="https://github.com/yarisuli" target="_blank" rel="noopener noreferrer" className="hero-image-link">
+            <img src="/github.png" alt="GitHub" className="hero-image" />
+          </a>
           <img src="/whatsapp.png" alt="WhatsApp" className="hero-image" />
-          <img src="/linkedin.png" alt="LinkedIn" className="hero-image" />
+          <a href="https://www.linkedin.com/in/iara-genco/" target="_blank" rel="noopener noreferrer" className="hero-image-link">
+            <img src="/linkedin.png" alt="LinkedIn" className="hero-image" />
+          </a>
         </div>
       </div>
     </section>
